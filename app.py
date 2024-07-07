@@ -5,7 +5,7 @@ from flask import (
     url_for,
     render_template
 )
-from forms import InputForm
+from forms import InputForm 
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "secret_key"
